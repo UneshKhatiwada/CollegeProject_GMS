@@ -74,7 +74,7 @@
                             <div class="card">
                                 <div class="card-body bg-warning">
                                     <div class="card-body text-white">
-                                        <span class="float-right summary_icon"><i class="fa fa-list"></i></span>
+                                        <span class="float-right summary_icon"><i class="fas fa-dumbbell"></i></span>
                                         <h4><b>
                                             <?php echo $conn->query("SELECT * FROM packages")->num_rows; ?>
                                         </b></h4>

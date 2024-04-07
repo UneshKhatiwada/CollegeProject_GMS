@@ -1,4 +1,5 @@
 <?php include('header1.php') ?>
+<!-- Nav Section -->
 <header>
     <nav class="navbar navbar-expand-lg navbar-light default-color">
         <a class="navbar-brand ps-4 " href="#"><img src="assets/logoo.png" alt="" style="height: 50px; "></a>
@@ -14,31 +15,22 @@
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
         <ul class="navbar-nav ml-auto nav-flex-icons">
-
             <li class="nav-item dropdown">
-                <?php if (isset($_SESSION['login'])) { ?>
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-user mr-2"></i>Account
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-                        <a class="dropdown-item" href="index.php">Dashboard</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="logout.php">Logout</a>
-                    </div>
-                <?php } else { ?>
-                    <a href="login.php"class="btn btn-primary me-3" id="btn1">
-                        <i class="fa fa-user me-1"></i>User login</a>
-                <?php } ?>
+                <a href="login.php" class="btn btn-primary me-3" id="btn1">
+                    <i class="fa fa-user me-1"></i>User login</a>
             </li>
         </ul>
-
-        </div>
-        </div>
     </nav>
 </header>
 
@@ -56,7 +48,7 @@
                 <a href="" class="btn btn-lg btn-primary" id="btn1">Join us</a>
             </div>
             <div class="col-lg-6">
-                <div class="col-lg-11" >
+                <div class="col-lg-11">
                     <div class="card-body">
                         <img src="assets/fphoto.jpg" alt="" class="img-fluid">
                     </div>
@@ -73,20 +65,20 @@
             <div class="col-lg-6 py-5 ">
                 <h2 class="fw-bold mb-3 ">About Vyayamlaya</h2>
                 <div class="pr-4">
-                    <p>Welcome to Vyayamlaya Gym Center, a haven for fitness enthusiasts nestled in the heart of Maitidevi, Kathmandu. 
-                       At Vyayamlaya, we pride ourselves on offering more than just a place to work out; 
-                       we provide a holistic approach to wellness that encompasses physical fitness, mental well-being, 
-                       and spiritual rejuvenation.</p>
+                    <p>Welcome to Vyayamlaya Gym Center, a haven for fitness enthusiasts nestled in the heart of Maitidevi, Kathmandu.
+                        At Vyayamlaya, we pride ourselves on offering more than just a place to work out;
+                        we provide a holistic approach to wellness that encompasses physical fitness, mental well-being,
+                        and spiritual rejuvenation.</p>
                     <p>The architecture of Vyayamlaya blends modern aesthetics with traditional Nepali motifs,
-                         creating a unique ambiance that reflects the rich cultural heritage of the region.
-                         The entrance is adorned with intricate wood carvings and vibrant prayer flags, 
-                         invoking a sense of tranquility and spirituality.
+                        creating a unique ambiance that reflects the rich cultural heritage of the region.
+                        The entrance is adorned with intricate wood carvings and vibrant prayer flags,
+                        invoking a sense of tranquility and spirituality.
                     </p>
                     <p>
-                    Upon entering, you're greeted by the welcoming staff, 
-                    who are not just fitness enthusiasts but also knowledgeable guides on the journey to a healthier 
-                    lifestyle. The reception area exudes warmth with its earthy tones and comfortable seating, 
-                    providing a space for members to unwind before and after their workouts.
+                        Upon entering, you're greeted by the welcoming staff,
+                        who are not just fitness enthusiasts but also knowledgeable guides on the journey to a healthier
+                        lifestyle. The reception area exudes warmth with its earthy tones and comfortable seating,
+                        providing a space for members to unwind before and after their workouts.
                     </p>
                 </div>
                 <a href="about-us.php" class="btn btn-primary " style="background:#428f9d; ">Know More</a>
@@ -117,7 +109,7 @@
                         <b>Cardio & Dance Rhythms</b>
                         <p class="card-text fw-bold ">
                         <p class="fw-lighter"> Focus on improving cardiovascular fitness through
-                            dance-based workouts 
+                            dance-based workouts
                             (e.g., Zumba, dance aerobics).</p>
                         </p>
                         <button class="btn btn-primary btn-sm" style="background:#428f9d;">Join Now</button>
@@ -133,7 +125,7 @@
                         <b>Yoga and Meditation</b>
                         <p class="card-text fw-bold ">
                         <p class="fw-lighter">Focus on improving flexibility
-                             and mental well-being through a series of poses and breathing exercises.</p>
+                            and mental well-being through a series of poses and breathing exercises.</p>
                         </p>
                         <button class="btn btn-primary btn-sm" style="background:#428f9d;">Join Now</button>
                     </div>
@@ -147,7 +139,7 @@
                     <div class="card-body">
                         <b>Recovery and Stretching </b>
                         <p class="card-text fw-bold ">
-                        <p class="fw-lighter"> Exercises to target specific muscle groups and improve 
+                        <p class="fw-lighter"> Exercises to target specific muscle groups and improve
                             strength and endurance and help to recover body.</p>
                         </p>
                         <button class="btn btn-primary btn-sm" style="background:#428f9d;">Join Now</button>
@@ -176,10 +168,10 @@
 <section class="py-5">
     <div class="text-center">
         <h2 class="text-decoration-underline text-dark fw-bold ">Our Team</h2>
-        <p class="mb-5 text-dark fw-lighter">Our team at Vyayamlaya is the backbone of the entire establishment, 
+        <p class="mb-5 text-dark fw-lighter">Our team at Vyayamlaya is the backbone of the entire establishment,
             embodying the values of dedication,expertise, and <br>passion for health and fitness.
             Comprised of experienced trainers, knowledgeable staff, and dedicated professionals, <br>
-            Our team is committed to providing exceptional service and support to every member who walks 
+            Our team is committed to providing exceptional service and support to every member who walks
             through the doors.</p>
     </div>
     <div class="container ">
@@ -187,7 +179,7 @@
             <div class="col-lg-3">
                 <div class="card">
                     <div style="height: 261px;">
-                    <img src="assets/pasa.png" alt="" class="img-fluid h-100">
+                        <img src="assets/pasa.png" alt="" class="img-fluid h-100">
                     </div>
                     <div class="card-body">
                         <b>Ajay Shrestha</b>
@@ -229,7 +221,7 @@
             <div class="col-lg-3">
                 <div class="card">
                     <div style="height: 261px;">
-                    <img src="assets/nikhil.jpg" alt="" class="img-fluid h-100">
+                        <img src="assets/nikhil.jpg" alt="" class="img-fluid h-100">
                     </div>
                     <div class="card-body">
                         <b>Nikhil Thapa</b>
@@ -257,66 +249,66 @@
             <div class="col-6">
                 <div class="shadow rounded position-relative">
                     <div class="p-4 text-center">
-                    The trainers here customized a plan that balanced
-                    my work-life demands, and I've seen remarkable 
-                     progress in my fitness journey.It's not just a gym;
-                    it's my sanctuary for self-care.
+                        The trainers here customized a plan that balanced
+                        my work-life demands, and I've seen remarkable
+                        progress in my fitness journey.It's not just a gym;
+                        it's my sanctuary for self-care.
                     </div>
                     <i class=" fa fa-quote-left fa-3x position-absolute" style="top: 0.5rem; left: 0.5rem; opacity:0.2;"></i>
-                    </div>
-                    <div class="mt-n2 text-center">
-                        <img src="assets/roman.jpg" alt="" class="rounded-circle border" width="100px" height="100px">
-                        <h4 class="mb-0 fw-bold">Roman Raut</h4>
-                        <p class="fw-light"> <i>Marketing Manager</i></p>
-                    </div>
                 </div>
-                <div class="col-6">
-                    <div class="shadow rounded position-relative">
-                        <div class="p-4 text-center">
-                            The trainers' expertise and the gym's commitment to cleanliness
-                            during these times have made it a safe haven for me to maintain
-                            my health and de-stress..............
-                        </div>
-                        <i class="fa fa-quote-left fa-3x position-absolute" style="top: 0.5rem; left: 0.5rem; opacity:0.2;"></i>
-                    </div>
-                    <div class="mt-n2 text-center">
-                        <img src="assets/pra.jpg" alt="" class="rounded-circle border" width="100px" height="100px">
-                        <h4 class="mb-0 fw-bold">Pratikshya Basyal</h4>
-                        <p class="fw-light"> <i>Registered Nurse</i></p>
-                    </div>
+                <div class="mt-n2 text-center">
+                    <img src="assets/roman.jpg" alt="" class="rounded-circle border" width="100px" height="100px">
+                    <h4 class="mb-0 fw-bold">Roman Raut</h4>
+                    <p class="fw-light"> <i>Marketing Manager</i></p>
                 </div>
-                <div class="col-6">
-                    <div class="shadow rounded position-relative">
-                        <div class="p-4 text-center">
-                            The variety of classes and the supportive community have kept me
-                            motivated. I've shed pounds, gained confidence, and found a new
-                            level of energy to inspire my students.
-                        </div>
-                        <i class="fa fa-quote-left fa-3x position-absolute" style="top: 0.5rem; left: 0.5rem; opacity:0.2;"></i>
+            </div>
+            <div class="col-6">
+                <div class="shadow rounded position-relative">
+                    <div class="p-4 text-center">
+                        The trainers' expertise and the gym's commitment to cleanliness
+                        during these times have made it a safe haven for me to maintain
+                        my health and de-stress..............
                     </div>
-                    <div class="mt-n2 text-center">
-                        <img src="assets/rosh.jpg" alt="" class="rounded-circle border" width="100px" height="100px">
-                        <h4 class="mb-0 fw-bold">Roshan Balati</h4>
-                        <p class="fw-light"> <i>Teacher</i></p>
-                    </div>
+                    <i class="fa fa-quote-left fa-3x position-absolute" style="top: 0.5rem; left: 0.5rem; opacity:0.2;"></i>
                 </div>
-                <div class="col-6">
-                    <div class="shadow rounded position-relative">
-                        <div class="p-4 text-center">
-                            This gym's 24/7 access has been a lifesaver. Whether it's a
-                            late-night workout or an early morning session, the convenience
-                            here is unbeatable...........................................
-                        </div>
-                        <i class="fa fa-quote-left fa-3x position-absolute" style="top: 0.5rem; left: 0.5rem; opacity:0.2;"></i>
+                <div class="mt-n2 text-center">
+                    <img src="assets/pra.jpg" alt="" class="rounded-circle border" width="100px" height="100px">
+                    <h4 class="mb-0 fw-bold">Pratikshya Basyal</h4>
+                    <p class="fw-light"> <i>Registered Nurse</i></p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="shadow rounded position-relative">
+                    <div class="p-4 text-center">
+                        The variety of classes and the supportive community have kept me
+                        motivated. I've shed pounds, gained confidence, and found a new
+                        level of energy to inspire my students.
                     </div>
-                    <div class="mt-n2 text-center">
-                        <img src="assets/ashfaq.jpg" alt="" class="rounded-circle border" width="100px" height="100px">
-                        <h4 class="mb-0 fw-bold">Ashfaq Raza</h4>
-                        <p class="fw-light"> <i>Entrepreneur</i></p>
+                    <i class="fa fa-quote-left fa-3x position-absolute" style="top: 0.5rem; left: 0.5rem; opacity:0.2;"></i>
+                </div>
+                <div class="mt-n2 text-center">
+                    <img src="assets/rosh.jpg" alt="" class="rounded-circle border" width="100px" height="100px">
+                    <h4 class="mb-0 fw-bold">Roshan Balati</h4>
+                    <p class="fw-light"> <i>Teacher</i></p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="shadow rounded position-relative">
+                    <div class="p-4 text-center">
+                        This gym's 24/7 access has been a lifesaver. Whether it's a
+                        late-night workout or an early morning session, the convenience
+                        here is unbeatable...........................................
                     </div>
+                    <i class="fa fa-quote-left fa-3x position-absolute" style="top: 0.5rem; left: 0.5rem; opacity:0.2;"></i>
+                </div>
+                <div class="mt-n2 text-center">
+                    <img src="assets/ashfaq.jpg" alt="" class="rounded-circle border" width="100px" height="100px">
+                    <h4 class="mb-0 fw-bold">Ashfaq Raza</h4>
+                    <p class="fw-light"> <i>Entrepreneur</i></p>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 <!-- Footer-->
@@ -363,7 +355,7 @@
                 <form action="#" method="post" onsubmit="btnSave()">
                     <div class="mb-3 pt-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control"  placeholder="Your Email" required />
+                        <input type="email" class="form-control" placeholder="Your Email" required />
                     </div>
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
@@ -374,13 +366,13 @@
                         <textarea class="form-control" rows="3" required></textarea>
                     </div><br />
 
-                    <button type="submit" class="btn btn-lg btn-primary" style="background:#4eaebf;" >Register Now</button>
+                    <button type="submit" class="btn btn-lg btn-primary" style="background:#4eaebf;">Register Now</button>
                 </form>
             </div>
         </div>
-        <div class="text-center shadow text-white" style="background:#428f9d;" >
+        <div class="text-center shadow text-white" style="background:#428f9d;">
             <footer class="main-footer">
-                <strong>Copyright &copy;2024<a  class="text-white";>Vyayamlaya</a>.</strong>
+                <strong>Copyright &copy;2024<a class="text-white" ;>Vyayamlaya</a>.</strong>
                 All rights reserved.
                 <div class="float-right d-none d-sm-inline-block">
                     <b>Version</b>1.0

@@ -8,7 +8,7 @@
 	}
 </style>
 
-<nav id="sidebar" class='mx-lt-5 bg-dark' >
+<nav id="sidebar" class='mx-lt-5 bg-dark'>
 		
 		<div class="sidebar-list">
 				<a href="index.php?page=home" class="nav-item nav-home"><span class='icon-field'><i class="fa fa-home"></i></span> Home</a>

@@ -26,6 +26,15 @@
         #btn1:hover{
             background: #30c1db;
         }
+        .nav-link{
+            margin-left: 50px;
+            font-weight: 500;
+            font-size: large;
+        }
+        .nav-link:hover{
+            color: #428f9d;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
